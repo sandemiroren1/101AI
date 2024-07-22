@@ -1,7 +1,11 @@
-package main.java.GameProperties;
+package GameProperties;
+
+
+import GameProperties.Enums.TileColor;
+import lombok.AllArgsConstructor;
 
 import java.util.Objects;
-
+@AllArgsConstructor
 public class Tile{
     private TileColor tileColor;
     private byte number;
